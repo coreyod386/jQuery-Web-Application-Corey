@@ -18,3 +18,8 @@ h1{
 body{
 background-color:slategrey;
 }
+h2{
+    background-color: aquamarine;
+    font-style: italic
+    }
+    #myslatediv{
