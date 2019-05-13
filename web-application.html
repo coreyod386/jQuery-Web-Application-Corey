@@ -13,3 +13,8 @@
 
 <div id ="mybluediv">Click Me</div>
 <script>  
+$( "#mybluediv" ).click(function() {
+  $( "#mybluediv" ).animate({
+    width: "105%",
+  }, 1500 ).animate({marginLeft: "80%", width: "95px"}, 1500 )
+           .animate({marginTop: "80%",
