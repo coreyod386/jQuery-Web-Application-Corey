@@ -98,3 +98,8 @@ function getdetails(){
     for (i = 0; i < contacts.length; i++) 
     {
         var contact = document.createElement("li"); 
+        
+        contact.innerHTML = contacts[i].personName;
+         myList.appendChild(contact);
+    }
+}
