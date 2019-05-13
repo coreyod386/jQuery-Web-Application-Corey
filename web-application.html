@@ -128,3 +128,8 @@ var ages=[];
 });
     </script>
     <h2>Next, Click the Red Button to make it disappear</h2>
+    <img id="clickme" src="Click-Here.png" alt="">
+    <script>  
+$( "#clickme" ).click(function() {
+  $( "#clickme" ).fadeOut( "slow", function() {
+  });
