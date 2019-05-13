@@ -57,9 +57,14 @@ $( "#mybluediv" ).click(function() {
   }, 1500 );
 }
   });
-  
+
   annyang.addCommands(commands);
 
 
 annyang.start();
 }
+</script>
+<script>
+    var contacts =[];
+document.getElementById("submit").addEventListener("click",getdetails);
+function getdetails(){
