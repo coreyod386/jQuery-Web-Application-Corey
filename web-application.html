@@ -93,3 +93,8 @@ function getdetails(){
  document.getElementById("print").addEventListener("click",printDetails);
  
  {
+    var myList = document.getElementById("contactslist"); 
+    myList.innerHTML = "";
+    for (i = 0; i < contacts.length; i++) 
+    {
+        var contact = document.createElement("li"); 
